@@ -7,7 +7,6 @@ export default function manageRestaurants(state = {
       return Object.assign({}, state, {
         restaurants: state.restaurants.concat(action.restaurant)
       });
-
     default:
       return state;
 
